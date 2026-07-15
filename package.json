@@ -1,6 +1,6 @@
 {
   "name": "opencode-codex-doubao-shim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "opencode 的 OpenAI 兼容 embedding 代理插件：让 opencode-mem 透明对接火山方舟 doubao-embedding-vision，透明处理方舟非标准的返回体形状。",
   "keywords": [
     "opencode",
