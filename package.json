@@ -1,0 +1,44 @@
+{
+  "name": "opencode-codex-doubao-shim",
+  "version": "0.1.0",
+  "description": "opencode 的 OpenAI 兼容 embedding 代理插件：让 opencode-mem 透明对接火山方舟 doubao-embedding-vision，透明处理方舟非标准的返回体形状。",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-mem",
+    "embeddings",
+    "doubao",
+    "ark",
+    "volcengine",
+    "openai-compatible"
+  ],
+  "author": "Yulimfish <epeiuss@waterflames.cn>",
+  "license": "MIT",
+  "homepage": "https://github.com/Yulimfish/opencode-codex-doubao-shim",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yulimfish/opencode-codex-doubao-shim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yulimfish/opencode-codex-doubao-shim/issues"
+  },
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./server": "./server.ts"
+  },
+  "files": [
+    "index.ts",
+    "server.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
